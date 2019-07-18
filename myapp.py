@@ -14,7 +14,7 @@ def foo(name):
 def add_todo():
     item =request.args.get('item')
     items.append(item)
-    return redirect("http://localhost:5000/foo/joshua", code=302)
+    return redirect("https://my-todo-code.herokuapp.com/foo/Joshua", code=302)
 
 
 

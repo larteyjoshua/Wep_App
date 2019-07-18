@@ -1,1 +1,1 @@
-web: python Wep_App/myapp.py
+web: python myapp.py
